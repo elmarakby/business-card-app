@@ -124,10 +124,10 @@ export default async function Home() {
           </a>
 
           <form action={submitToCap}>
-            <input type="hidden" name="communityId" value="mohamed.marakby@labs-is.com" />
+            <input type="hidden" name="communityId" value="S0012164523" />
             <input type="hidden" name="answer" value="Hydration" />
             <input type="hidden" name="week" value="week4" />
-            <input type="hidden" name="CAP_SERVICE_URL" value="https://community-challenge.cfapps.us10.hana.ondemand.com"/>
+            
             <button type="submit" className="w-full py-3 px-4 bg-red-600 rounded-lg hover:bg-red-500 transition font-medium cursor-pointer flex items-center justify-center gap-2">
               SAP Community
               {isSubmitted && <span className="text-xl">✓</span>}
