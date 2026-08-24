@@ -124,7 +124,7 @@ export default async function Home() {
           </a>
 
           <form action={submitToCap}>
-            <input type="hidden" name="communityId" value="S0012164523" />
+            <input type="hidden" name="communityId" value="mohamed.marakby@labs-is.com" />
             <input type="hidden" name="answer" value="Hydration" />
             <input type="hidden" name="week" value="week4" />
 
